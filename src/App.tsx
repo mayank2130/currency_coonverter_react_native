@@ -40,7 +40,7 @@ const App = (): JSX.Element => {
       setTargetCurrency(targetValue.name)
     } else {
       return Snackbar.show({
-        text: "NOt a valid number to convert",
+        text: "Not a valid number to convert",
         backgroundColor: "#F4BE2C",
         textColor: "#000000"
       })
